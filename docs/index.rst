@@ -11,9 +11,9 @@ Flask-SSDB allows u to access SSDB elegantly from ur flask application.
 Installation
 ------
 
-Use pip to install ``flask-ssdb`` : ::
+Use pip to install ``Flask-SSDB`` : ::
 
-  pip install flask-ssdb
+  pip install Flask-SSDB
 
 
 Configuration
