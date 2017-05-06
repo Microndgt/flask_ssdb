@@ -1,0 +1,43 @@
+.. Flask-SSDB documentation master file, created by
+   sphinx-quickstart on Sat May  6 21:25:14 2017.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to Flask-SSDB's documentation!
+======================================
+
+Flask-SSDB allows u to access SSDB elegantly from ur flask application.
+
+Installation
+------
+
+Use pip to install ``flask-ssdb`` : ::
+
+  pip install flask-ssdb
+
+
+Configuration
+-----
+
+To configure access to your SSDB database server by using these settings :
+
+.. tabularcolumns:: |p{6.5cm}|p{8.5cm}|
+
+================== =============================
+``SSDB_HOST``            default is 'localhost'
+``SSDB_PORT``            default is 8888
+``SSDB_PASSWORD``        default is None
+================== =============================
+
+Usage
+-----
+
+Initialize the extension : ::
+
+  from flask_ssdb import SSDB
+  ssdb = SSDB()
+  ssdb.init_app(app)
+
+Obtain a connection and set key value: ::
+
+  ssdb.connection.set(key, value)
