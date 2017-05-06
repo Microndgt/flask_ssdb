@@ -8,6 +8,13 @@ Welcome to Flask-SSDB's documentation!
 
 Flask-SSDB allows u to access SSDB elegantly from ur flask application.
 
+About
+------
+
+GitHub: https://github.com/Microndgt/flask_ssdb/
+
+Blog: http://skyrover.me/post/22/
+
 Installation
 ------
 
