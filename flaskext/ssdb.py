@@ -44,7 +44,7 @@ class SSDB(object):
         if ctx is not None:
             if not hasattr(ctx, 'ssdb_db'):
                 ctx.ssdb_db = self.connect()
-                if current_app.config['SSDB_PASSWORD'] is not None:
+                if current_app.config['SSDB_PASSWORD']:
                     ctx.ssdb_db.auth(current_app.config['SSDB_PASSWORD'])
             return ctx.ssdb_db
 

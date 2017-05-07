@@ -13,7 +13,7 @@ About
 
 GitHub: https://github.com/Microndgt/flask_ssdb/
 
-Blog: http://skyrover.me/post/22/
+PyPi主页：https://pypi.python.org/pypi/Flask-SSDB/0.0.1
 
 Installation
 ------
